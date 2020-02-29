@@ -1,0 +1,63 @@
+.container {
+  height: 100%;
+}
+.container p {
+  font-size: 2rem;
+  width: 50%;
+}
+.container .content {
+  padding: 3% 0 0 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .content .largeimg {
+  margin: 0 3% 0 3%;
+  width: 40%;
+  height: 40vh;
+  border-radius: 20px;
+}
+.container .content .mainPoints {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% 0 3% 0;
+}
+.container .content .mainPoints .bullet {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 2% 0 2% 0;
+}
+.container .content .mainPoints .bullet p {
+  width: 70%;
+  height: 80%;
+  padding: 0 0 0 1%;
+}
+.container .content .mainPoints .bullet img {
+  width: 120px;
+  height: 120px;
+}
+.container .content .signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 40vh;
+  margin: 0 0 3% 3%;
+}
+.container .content .signUp p {
+  width: 100%;
+  margin: 0 0 4% 0;
+}
+.container .content button {
+  padding: 5px 100px 5px 100px;
+  border-radius: 6px;
+  font-weight: 700;
+  background: #00A9A5;
+}
+.container .content button:hover {
+  color: #00A9A5;
+  background: black;
+}

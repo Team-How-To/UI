@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.container {
+  height: 100%;
+}
+.container p {
+  font-size: 2rem;
+  width: 50%;
+}
+.container .content {
+  padding: 3% 0 0 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .content .largeimg {
+  margin: 0 3% 0 3%;
+  width: 40%;
+  height: 40vh;
+  border-radius: 20px;
+}
+.container .content .mainPoints {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% 0 3% 0;
+}
+.container .content .mainPoints .bullet {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 2% 0 2% 0;
+}
+.container .content .mainPoints .bullet p {
+  width: 70%;
+  height: 80%;
+  padding: 0 0 0 1%;
+}
+.container .content .mainPoints .bullet img {
+  width: 120px;
+  height: 120px;
+}
+.container .content .signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 40vh;
+  margin: 0 0 3% 3%;
+}
+.container .content .signUp p {
+  width: 100%;
+  margin: 0 0 4% 0;
+}
+.container .content button {
+  padding: 5px 100px 5px 100px;
+  border-radius: 6px;
+  font-weight: 700;
+  background: #00A9A5;
+}
+.container .content button:hover {
+  color: #00A9A5;
+  background: black;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+header nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+header nav a:hover {
+  color: #00A9A5;
+}
+footer nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  font-size: 2.5rem;
+  padding: 0.8% 0 0 0;
+}
+footer nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+footer nav a:hover {
+  color: #00A9A5;
+}
+.container header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background: #586BA4;
+  padding: 0 5% 0 5%;
+}
+.container header img {
+  width: 165px;
+  height: 80px;
+  margin: 0 20% 0 0;
+}
+.container header nav {
+  width: 60%;
+}
+footer {
+  width: 100%;
+  background: #586BA4;
+  height: 8vh;
+}
