@@ -3,3 +3,11 @@ footer {
   background: #586BA4;
   height: 8vh;
 }
+@media (max-width: 500px) {
+  footer {
+    bottom: 0;
+  }
+  footer nav {
+    width: 100%;
+  }
+}
