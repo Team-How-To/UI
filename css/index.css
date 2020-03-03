@@ -157,6 +157,13 @@ body {
   height: 40vh;
   border-radius: 20px;
 }
+@media (max-width: 500px) {
+  .container .content .largeimg {
+    margin: 0 0 3% 0;
+    width: 100%;
+    height: 50vh;
+  }
+}
 .container .content .mainPoints {
   width: 100%;
   display: flex;
@@ -174,11 +181,25 @@ body {
   height: 80%;
   padding: 0 0 0 1%;
 }
+@media (max-width: 500px) {
+  .container .content .mainPoints .bullet {
+    width: 100%;
+  }
+}
 .container .content .mainPoints .bullet img {
   width: 120px;
   height: 120px;
 }
-.container .content .signUp {
+@media (max-width: 500px) {
+  .container .content .mainPoints {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.container .content .bottomContent {
+  display: flex;
+}
+.container .content .bottomContent .signUp {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,19 +207,39 @@ body {
   height: 40vh;
   margin: 0 0 3% 3%;
 }
-.container .content .signUp p {
+.container .content .bottomContent .signUp p {
   width: 100%;
   margin: 0 0 4% 0;
 }
-.container .content button {
+@media (max-width: 500px) {
+  .container .content .bottomContent .signUp {
+    margin: 0 0 20% 0;
+    width: 100%;
+  }
+}
+.container .content .bottomContent button {
   padding: 5px 100px 5px 100px;
   border-radius: 6px;
   font-weight: 700;
   background: #00A9A5;
 }
-.container .content button:hover {
+.container .content .bottomContent button:hover {
   color: #00A9A5;
   background: black;
+}
+@media (max-width: 500px) {
+  .container .content .bottomContent {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+}
+@media (max-width: 500px) {
+  .container .content {
+    justify-content: center;
+  }
+  .container .content p {
+    width: 100%;
+  }
 }
 header nav {
   display: flex;
@@ -246,8 +287,30 @@ footer nav a:hover {
 .container header nav {
   width: 60%;
 }
+@media (max-width: 500px) {
+  .container header {
+    width: 100%;
+    height: 25vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container header img {
+    margin: 0;
+  }
+  .container header nav {
+    width: 100%;
+  }
+}
 footer {
   width: 100%;
   background: #586BA4;
   height: 8vh;
+}
+@media (max-width: 500px) {
+  footer {
+    bottom: 0;
+  }
+  footer nav {
+    width: 100%;
+  }
 }

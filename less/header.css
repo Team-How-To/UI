@@ -14,3 +14,17 @@
 .container header nav {
   width: 60%;
 }
+@media (max-width: 500px) {
+  .container header {
+    width: 100%;
+    height: 25vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container header img {
+    margin: 0;
+  }
+  .container header nav {
+    width: 100%;
+  }
+}
