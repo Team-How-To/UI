@@ -6,6 +6,7 @@
         width: 50%;
     }
     .content {
+        min-height: 100vh;
         padding: 3% 0 0 0;
         width: 80%;
         margin: auto;
@@ -55,7 +56,6 @@
     }//mainPoints
     .bottomContent{
         display: flex;
-
         .signUp {
         display: flex;
         flex-direction: column;
@@ -95,3 +95,48 @@
     }
     }//content
 }//container
+
+.aboutContent{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1, h2{
+        margin: 3% 0 0 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    h2{
+        text-align: center;
+        width: 90%;
+        border-bottom: 2px dashed black;
+    }
+    p{
+        width: 65%;
+        line-height: 1.5;
+        margin: 3% 0 0 0;
+    }
+
+    h3{
+        font-size: 2.3;
+        font-weight: 650;
+    }
+
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .gitHandles{
+            width: 50%;
+            margin: 3% 0 6% 0;
+            text-align: center;
+        }
+        @media (max-width: 500px){
+            flex-wrap: wrap;
+        }
+    }
+}

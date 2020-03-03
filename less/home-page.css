@@ -6,6 +6,7 @@
   width: 50%;
 }
 .container .content {
+  min-height: 100vh;
   padding: 3% 0 0 0;
   width: 80%;
   margin: auto;
@@ -100,5 +101,48 @@
   }
   .container .content p {
     width: 100%;
+  }
+}
+.aboutContent {
+  width: 80%;
+  margin: auto;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutContent h1,
+.aboutContent h2 {
+  margin: 3% 0 0 0;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.aboutContent h2 {
+  text-align: center;
+  width: 90%;
+  border-bottom: 2px dashed black;
+}
+.aboutContent p {
+  width: 65%;
+  line-height: 1.5;
+  margin: 3% 0 0 0;
+}
+.aboutContent h3 {
+  font-size: 2.3;
+  font-weight: 650;
+}
+.aboutContent section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.aboutContent section .gitHandles {
+  width: 50%;
+  margin: 3% 0 6% 0;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .aboutContent section {
+    flex-wrap: wrap;
   }
 }

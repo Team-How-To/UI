@@ -1,30 +1,30 @@
-.container header {
+header {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 15%;
   background: #586BA4;
   padding: 0 5% 0 5%;
 }
-.container header img {
+header img {
   width: 165px;
   height: 80px;
   margin: 0 20% 0 0;
 }
-.container header nav {
+header nav {
   width: 60%;
 }
 @media (max-width: 500px) {
-  .container header {
+  header {
     width: 100%;
     height: 25vh;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .container header img {
+  header img {
     margin: 0;
   }
-  .container header nav {
+  header nav {
     width: 100%;
   }
 }
