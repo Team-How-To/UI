@@ -13,3 +13,6 @@ LESS for CSS preprocessing http://lesscss.org/
 ## Attributions
 
 GitHub logos https://github.com/logos
+
+## [Deployed here](https://how-too.netlify.com/index.html)
+
