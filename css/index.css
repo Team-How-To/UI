@@ -144,6 +144,7 @@ h2 {
   font-weight: 800;
 }
 h2 {
+  margin: 6% 0 0 0;
   text-align: center;
   width: 90%;
   border-bottom: 2px dashed black;
@@ -364,7 +365,7 @@ footer {
 }
 .aboutContent {
   width: 80%;
-  height: 85vh;
+  height: 100%;
   margin: auto;
   font-size: 2rem;
   display: flex;
@@ -390,7 +391,7 @@ footer {
 }
 .aboutContent section .gitHandles {
   width: 50%;
-  margin: 3% 0 6% 0;
+  margin: 10% 0 10% 0;
   text-align: center;
 }
 @media (max-width: 500px) {
