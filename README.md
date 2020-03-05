@@ -13,7 +13,3 @@ LESS for CSS preprocessing http://lesscss.org/
 ## Attributions
 
 GitHub logos https://github.com/logos
-
-## Original Mockup
- 
- ![Original mockup of how-to desktop](img\mock up Desktop.png)
