@@ -308,7 +308,11 @@ footer {
 }
 .container .content .bottomContent {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   height: 100%;
+  margin: 0 0 4% 0;
 }
 .container .content .bottomContent .signUp {
   display: flex;
@@ -317,11 +321,12 @@ footer {
   align-items: center;
   width: 50%;
   height: 100%;
-  margin: 0 0 5% 3%;
+  margin: 0 0 0% 3%;
 }
 .container .content .bottomContent .signUp p {
+  font-size: 2.5rem;
   width: 100%;
-  margin: 0 0 4% 0;
+  margin: 0 0 3% 0;
 }
 @media (max-width: 800px) {
   .container .content .bottomContent .signUp {
